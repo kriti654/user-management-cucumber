@@ -1,0 +1,15 @@
+CREATE TABLE `user_rvy` (
+  `user_id` int(4) AUTO_INCREMENT PRIMARY KEY,
+  'address1' varchar(50),
+  'address2' varchar(50),
+  'city' varchar(30),
+  'country' varchar(30),
+  `email` varchar(30),
+  'hiredate' date,
+  'mobile' int(10) NOT NULL,
+  'name' varchar(30),
+  'state' varchar(30),
+  'uin' varchar(10),
+  'zipcode' int(10),
+  `region_id` int NOT NULL,
+);
